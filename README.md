@@ -1,6 +1,7 @@
 # SLM
 - **S**mall **L**anguage **M**odel
 - Microsoft - [3 bit Ai trends to watch in 2024](https://news.microsoft.com/three-big-ai-trends-to-watch-in-2024/?ocid=FY24_soc_omc_br_li_Trends)
+  
     > SLMs are still quite large with several billion parameters(7B) in contrast to hundreds of billions of parameters(175B-GPT) in LLMs. 
     > But they're small enough to run on a phone offline. 
     > Parameters are variables, or adjustable elements, that determine a model's behavior.
