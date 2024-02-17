@@ -12,11 +12,11 @@
 ### Alpaca-LLaMa
 - Stanford University(alpaca [[about]](https://crfm.stanford.edu/2023/03/13/alpaca.html)), Meta(llama [[about]](https://llama.meta.com/))
 
-```Alpaca```
+#### Alpaca
 
-a model fine-tuned from the LLaMA 7B model on 52K instruction-following demonstrations. 
+a model fine-tuned from the LLaMA 7B model on 52K instruction-following demonstrations
 
-```LLaMa```
+#### LLaMa
 
 large language model has ```7B```, ```13B```, ```33B```, and ```65B``` of parameter
 
@@ -40,7 +40,7 @@ demonstrates outstanding reasoning and language understanding capabilities, show
 - ```accelerate``` enables the same PyTorch code to be run across any distributed configuration
 - ```sentencepiece``` unsupervised text tokenizer and detokenizer mainly for Neural Network-based text generation systems where the vocabulary size is predetermined prior to the neural model training
 - ```protobuf``` Google’s language-neutral, platform-neutral, extensible mechanism for serializing structured data – think XML, but smaller, faster, and simpler
-- ```bitsandbytes``` brings quantization to your model. You can now load any pytorch model in 8-bit or 4-bit with a few lines of code.
+- ```bitsandbytes``` brings quantization to your model. You can now load any pytorch model in 8-bit or 4-bit with a few lines of code
 
 ### parameter
 - ```device_map='auto'``` suggests that the code should automatically handle device placement, likely selecting the available GPU if one is present
